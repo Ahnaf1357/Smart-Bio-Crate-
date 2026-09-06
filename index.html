@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE LAST TEN MINUTES</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="boot"><div class="bootTitle">MORROW RESEARCH STATION</div><div class="bootSub">TEMPORAL RECOVERY PROTOCOL</div><button id="start">INITIALIZE RECOVERY</button><div class="hint">Headphones recommended · WASD / Mouse · E interact · F flashlight · Shift sprint · Ctrl crouch · Q/E lean · Tab notebook</div></div>
+<div id="hud"><div id="timer">09:59</div><div id="zone">CENTRAL CONTROL</div><div id="objective"></div><div id="crosshair">+</div><div id="prompt"></div><div id="flash">FLASHLIGHT</div></div>
+<div id="notebook"><div class="book"><button id="closeBook">CLOSE [TAB]</button><h1>FIELD NOTEBOOK</h1><div class="tabs"><button data-tab="objectives">OBJECTIVES</button><button data-tab="clues">CLUES</button><button data-tab="timeline">TIMELINE</button><button data-tab="anomalies">ANOMALIES</button></div><div id="bookContent"></div></div></div>
+<div id="message"></div><div id="ending"><div id="endingInner"></div></div>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script type="module" src="game.js"></script>
+</body></html>
